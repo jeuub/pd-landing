@@ -1,4 +1,5 @@
 import './header.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return(
@@ -10,13 +11,16 @@ const Header = () => {
         <nav className={'header__nav nav'} >
           <ul className={'nav__list'}>
             <li className={'nav__item'}>
-              <a href="#/#project" className={'nav__link'}>Проект</a>
+              <HashLink to={'/#project'} className={'nav__link'}>Проект</HashLink> 
             </li>
             <li className={'nav__item'}>
-              <a href="#team" className={'nav__link'}>Команда</a>
+              <HashLink to={'/#team'} className={'nav__link'}>Команда</HashLink>
             </li>
             <li className={'nav__item'}>
-              <a href="#stack" className={'nav__link'}>Stack</a>
+              <HashLink to={'/#stack'} className={'nav__link'}>Stack</HashLink>
+            </li>
+            <li className={'nav__item'}>
+              <a href={'https://github.com/jeuub/sent'} target={'_blank'} rel='noreferrer' className={'nav__link'}>Github</a>
             </li>
           </ul>
         </nav>

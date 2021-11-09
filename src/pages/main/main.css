@@ -28,12 +28,12 @@
   margin-bottom: 30px;
   border: 1px solid var(--black);
   padding: 10px;
-  /* background: var(--message-back); */
 }
 
 .project__message {
   background-color: var(--message-back);
   margin-bottom: 30px;
+  max-width: 80%;
 }
 
 .project__message--important {
@@ -56,17 +56,46 @@
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 2rem; 
   text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid var(--black);
+  padding: 10px;
 }
 
 .team_devs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.devs__links {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.stack__inner {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.stack__title {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem; 
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid var(--black);
+  padding: 10px;
 }
 
 @media screen and (min-width: 375px) {
   .promo__inner,
   .project__inner,
-  .team__inner {
+  .team__inner,
+  .stack__inner {
     max-width: none;
     margin: 30px;
   }
@@ -79,12 +108,17 @@
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+  .team_devs {
+    flex-direction: row;
+    margin: 0 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .promo__inner,
   .project__inner,
-  .team__inner {
+  .team__inner,
+  .stack__inner {
     max-width: 1250px;
     margin: 30px auto;
   }
