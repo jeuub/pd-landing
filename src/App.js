@@ -1,10 +1,8 @@
-import Pages from './pages';
-import './app.css';
+import Pages from "./pages";
+import "./App.css";
 
 function App() {
-  return (
-    <Pages />
-  );
-};
+  return <Pages />;
+}
 
 export default App;
