@@ -1,0 +1,345 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        0.9808741211891174,
+        0.9905644655227661,
+        0.9914902448654175
+      ],
+      "min": [
+        -0.9808741211891174,
+        -0.9905644655227661,
+        -0.9914902448654175
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 402012,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        0.9998881816864014,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9998881816864014,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        1.0,
+        0.47238200902938843
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 184320,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 804024,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        1.0376365184783936,
+        1.0534332990646362,
+        1.0530341863632202
+      ],
+      "min": [
+        -1.0376365184783936,
+        -1.0534332990646362,
+        -1.0530341863632202
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1206036,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        0.9998198747634888,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9998198747634888,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 268008,
+      "componentType": 5126,
+      "count": 33501,
+      "max": [
+        1.0,
+        0.47238200902938843
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 737280,
+      "componentType": 5125,
+      "count": 184320,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "randomied (https://sketchfab.com/randomied)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/esfera-volumen-099913303d2b4cac82a622e38dc949ed",
+      "title": "Esfera Volumen"
+    },
+    "generator": "Sketchfab-11.95.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1474560,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 536016,
+      "byteOffset": 1474560,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1608048,
+      "byteOffset": 2010576,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3618624,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_transmission"
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.7658331682288854
+        }
+      },
+      "name": "Cristal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.04383854997531398,
+          0.2844843854038862,
+          0.5540790912347202,
+          0.25
+        ],
+        "roughnessFactor": 0.08342915928639254
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Plastico",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8648245820318267,
+          0.8648245820318267,
+          0.8648245820318267,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Icosphere_Cristal_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Icosphere.001_Plastico_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "338a18370eab4d70a8ea19b1a10aa102.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        -1.4191581954037247e-07,
+        132.18763732910156,
+        -4.967054110238678e-07,
+        1.0
+      ],
+      "name": "Icosphere"
+    },
+    {
+      "mesh": 0,
+      "name": "Icosphere_Cristal_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -43.55327469377167,
+        -6.721615976892871e-15,
+        42.054240824889135,
+        0.0,
+        42.054240824889014,
+        4.570864390802199e-06,
+        43.55327469377154,
+        0.0,
+        -3.1750068614798902e-06,
+        60.54293441772443,
+        -3.2881807664973244e-06,
+        0.0,
+        2.706946702346613e-07,
+        132.18763732910156,
+        1.5664986108276935e-07,
+        1.0
+      ],
+      "name": "Icosphere.001"
+    },
+    {
+      "mesh": 1,
+      "name": "Icosphere.001_Plastico_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

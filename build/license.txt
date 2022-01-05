@@ -1,0 +1,11 @@
+Model Information:
+* title:	Esfera Volumen
+* source:	https://sketchfab.com/3d-models/esfera-volumen-099913303d2b4cac82a622e38dc949ed
+* author:	randomied (https://sketchfab.com/randomied)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Esfera Volumen" (https://sketchfab.com/3d-models/esfera-volumen-099913303d2b4cac82a622e38dc949ed) by randomied (https://sketchfab.com/randomied) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
